@@ -1,0 +1,6 @@
+name: GiveHead
+version: '${version}'
+main: hirosuke.givehead.Givehead
+prefix: GiveHead
+authors: [ Hirosuke ]
+description: The plugin add command to get player's head.
