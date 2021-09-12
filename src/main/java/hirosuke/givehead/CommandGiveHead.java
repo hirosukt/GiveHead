@@ -39,7 +39,6 @@ public class CommandGiveHead implements CommandExecutor {
             item.setItemMeta(skull);
 
             player.getInventory().addItem(item);
-            player.sendMessage(args[0]);
             return true;
         }
         return false;
