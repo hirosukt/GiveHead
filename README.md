@@ -2,7 +2,7 @@
 The plugin add command to get player's head with many aliases.  
 Tested in: 1.12.2
 
-Page : 
+Page : https://www.spigotmc.org/resources/give-head.96164/
 
 ## Usage
 /head {optional: player}  
