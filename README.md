@@ -1,5 +1,5 @@
 # GiveHead
-The plugin add command to get player's head.  
+The plugin add command to get player's head with many aliases.  
 Tested in: 1.12.2
 
 Page : 
