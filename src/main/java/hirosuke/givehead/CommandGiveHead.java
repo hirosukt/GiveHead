@@ -15,6 +15,11 @@ import java.util.ArrayList;
 public class CommandGiveHead implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if(sender.hasPermission("givehead.givehead")) {
+            sender.sendMessage("You don't have permission!");
+            return true;
+        }
+
         if(command.getName().equalsIgnoreCase("head") || command.getName().equalsIgnoreCase("h")) {
             Player player = null;
             Player targetPlayer = Bukkit.getPlayer(args[0]);
