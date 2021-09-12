@@ -28,7 +28,7 @@ public class CommandGiveHead implements CommandExecutor {
                 targetPlayer = player;
             }
 
-            ItemStack item = new ItemStack(Material.SKULL);
+            ItemStack item = new ItemStack(Material.SKULL_ITEM, 1, (short) 3);
             SkullMeta skull = (SkullMeta) item.getItemMeta();
 
             skull.setDisplayName(player.getName());
@@ -39,6 +39,8 @@ public class CommandGiveHead implements CommandExecutor {
             item.setItemMeta(skull);
 
             player.getInventory().addItem(item);
+            player.sendMessage(args[0]);
+            return true;
         }
         return false;
     }
