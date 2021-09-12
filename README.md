@@ -7,6 +7,10 @@ Page :
 ## Usage
 /head {optional: player}  
 /h {optional: player}
+/kubi {optional: player}
+/namakubi {optional: player}
+/skull {optional: player}
+/playerskull {optional: player}
 
 to get player's head.
 
