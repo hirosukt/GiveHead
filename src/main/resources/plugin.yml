@@ -4,3 +4,10 @@ main: hirosuke.givehead.Givehead
 prefix: GiveHead
 authors: [ Hirosuke ]
 description: The plugin add command to get player's head.
+commands:
+  head:
+    description: get player's head.
+    usage: "Usage: /head {player}"
+  h:
+    description: get player's head.
+    usage: "Usage: /head {player}"
