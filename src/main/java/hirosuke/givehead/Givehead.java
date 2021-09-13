@@ -9,6 +9,11 @@ public final class Givehead extends JavaPlugin implements Listener {
     public void onEnable() {
         getCommand("h").setExecutor(new CommandGiveHead());
         getCommand("head").setExecutor(new CommandGiveHead());
+        getCommand("atama").setExecutor(new CommandGiveHead());
+        getCommand("kubi").setExecutor(new CommandGiveHead());
+        getCommand("namakubi").setExecutor(new CommandGiveHead());
+        getCommand("skull").setExecutor(new CommandGiveHead());
+        getCommand("playerskull").setExecutor(new CommandGiveHead());
         getLogger().info("plugin has loaded.");
     }
 
