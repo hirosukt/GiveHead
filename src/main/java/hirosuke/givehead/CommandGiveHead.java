@@ -33,7 +33,7 @@ public class CommandGiveHead implements CommandExecutor {
             || command.getName().equalsIgnoreCase("playerskull")) {
 
             Player player = null;
-            String targetPlayerName = null;
+            String targetPlayerName;
 
             if(sender instanceof Player) {
                 player = ((Player) sender).getPlayer();
@@ -45,27 +45,8 @@ public class CommandGiveHead implements CommandExecutor {
                 targetPlayerName = args[0];
             }
 
-            ObjectMapper mapper = new ObjectMapper();
-
             try {
-                URL url = new URL("https://api.mojang.com/users/profiles/minecraft/" + targetPlayerName);
-                HttpURLConnection http = (HttpURLConnection)url.openConnection();
-                http.setRequestMethod("GET");
-                http.connect();
-
-                BufferedReader reader = new BufferedReader(new InputStreamReader(http.getInputStream()));
-                String xml = "", line = "";
-                while((line = reader.readLine()) != null)
-                    xml += line;
-                System.out.println(xml);
-
-                Info info = mapper.readValue(xml, Info.class);
-                System.out.println(info.name + ", " + info.id);
-
-                reader.close();
-
-                Player targetPlayer = Bukkit.getOfflinePlayer(info.name).getPlayer();
-                ItemStack item = SkullCreator.itemFromName(info.name);
+                ItemStack item = SkullCreator.itemFromName(targetPlayerName);
 
                 player.getInventory().addItem(item);
             } catch (Exception e) {
