@@ -66,10 +66,6 @@ public class CommandGiveHead implements CommandExecutor {
 
                 Player targetPlayer = Bukkit.getOfflinePlayer(info.name).getPlayer();
                 ItemStack item = SkullCreator.itemFromName(info.name);
-//                SkullMeta meta = (SkullMeta) item.getItemMeta();
-//                meta.setOwningPlayer(targetPlayer);
-//                meta.setDisplayName(targetPlayerName + "'s Head");
-//                item.setItemMeta(meta);
 
                 player.getInventory().addItem(item);
             } catch (Exception e) {
