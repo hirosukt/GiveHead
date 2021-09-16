@@ -5,6 +5,8 @@ If you have a problem, you can get support in [my discord server](https://discor
 
 Worked in: 1.8 1.9 1.10 1.11 1.12
 
+Page : https://www.spigotmc.org/resources/give-head.96164/
+
 ## Commands
 {} is a optional argument.
 
