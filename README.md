@@ -1,5 +1,5 @@
 # Give Head
-The plugin adds command to get specify player's head.  
+Get specify player's head.  
 ![image](https://user-images.githubusercontent.com/51872161/133631615-775dba95-c2bb-4d61-a5b6-f25dbbda45a4.png)  
 If you have a problem, you can get support in [my discord server](https://discord.gg/A8XtpJhHrV).
 
