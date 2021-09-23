@@ -1,19 +1,21 @@
-# GiveHead
-The plugin add command to get player's head with many aliases.  
-Tested in: 1.12.2
+# Give Head
+Get specify player's head.  
+![image](https://user-images.githubusercontent.com/51872161/133631615-775dba95-c2bb-4d61-a5b6-f25dbbda45a4.png)  
+If you have a problem, you can get support in [my discord server](https://discord.gg/A8XtpJhHrV).
+
+Worked in: 1.8 1.9 1.10 1.11 1.12
 
 Page : https://www.spigotmc.org/resources/give-head.96164/
 
-## Usage
-/head {optional: player}  
-/h {optional: player}
-/kubi {optional: player}
-/namakubi {optional: player}
-/skull {optional: player}
-/playerskull {optional: player}
+## Commands
+{} is a optional argument.
 
-to get player's head.
+* **/head, /h, /skull \<player name>**  
+Get player's skull.
 
-## Support
+## Featured
+* Support above 1.12
+* Add permission
 
-You can get support in [my discord server](https://discord.gg/A8XtpJhHrV).
+## Installation
+Put .jar in your plugin folder and reload/restart server.
