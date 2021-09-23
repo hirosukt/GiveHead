@@ -1,20 +1,10 @@
 package hirosuke.givehead;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import dev.dbassett.skullcreator.SkullCreator;
-import org.bukkit.Bukkit;
-import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.SkullMeta;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
 class Info {
     public String name;
