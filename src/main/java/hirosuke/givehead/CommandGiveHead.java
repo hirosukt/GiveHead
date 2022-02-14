@@ -15,12 +15,7 @@ public class CommandGiveHead implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
-        if(command.getName().equalsIgnoreCase("head") || command.getName().equalsIgnoreCase("h")
-            || command.getName().equalsIgnoreCase("atama")
-            || command.getName().equalsIgnoreCase("kubi")
-            || command.getName().equalsIgnoreCase("namakubi")
-            || command.getName().equalsIgnoreCase("skull")
-            || command.getName().equalsIgnoreCase("playerskull")) {
+        if(command.getName().equalsIgnoreCase("head")) {
 
             Player player = null;
             String targetPlayerName;

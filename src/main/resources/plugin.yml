@@ -8,21 +8,6 @@ commands:
   head:
     description: get player's head.
     usage: "Usage: /head {player}"
-  h:
-    description: get player's head.
-    usage: "Usage: /h {player}"
-  atama:
-    description: get player's head.
-    usage: "Usage: /atama {player}"
-  kubi:
-    description: get player's head.
-    usage: "Usage: /kubi {player}"
-  namakubi:
-    description: get player's head.
-    usage: "Usage: /namakubi {player}"
-  skull:
-    description: get player's head.
-    usage: "Usage: /skull {player}"
-  playerskull:
-    description: get player's head.
-    usage: "Usage: /playerskull {player}"
+    aliases:
+      - skull
+      - playerskull
